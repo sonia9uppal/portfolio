@@ -1,0 +1,17 @@
+#topbar {
+  width: 100%;
+  z-index: 2;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  width: 100%;
+  //transform: translateX(50%);
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+}
+
+li {
+}
