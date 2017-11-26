@@ -1,11 +1,9 @@
 a {
   text-decoration: none;
-  font-family: "Dosis";
 }
 
 a:visited {
   text-decoration: none;
-  color: white;
 }
 
 h1 {
@@ -14,7 +12,7 @@ h1 {
   font-size: 70px;
   margin-top: 0px;
   margin-bottom: 0px;
-  //font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 body {
@@ -92,48 +90,67 @@ h2 {
 /*-----------------  Developing Frame  -----------------------*/
 
 #c {
-  padding-left: 6%;
+  text-align:center;
 }
 
 .codebox {
   width: 23.25%;
   height: 100%;
-  display: inline-block;
+  display: table-cell;
   position: static;
+  background-color: white;
+  text-align:center;
 }
-
-/*#berkeley {
-  background-color: red;
-}
-
-#adobe {
-  background-color: orange;
-}
-
-#whatsapp {
-  background-color: yellow;
-}
-
-#pialacode {
-  background-color: green;
-}*/
 
 .codeprojects {
   width: 70%;
-  padding-top: 50%;
-  transform: translateX(21%);
 }
 
 h3 {
   font-family: "Alte Haas";
   color: black;
-  font-size: 30px;
+  font-size: 27px;
   text-align: center;
   width: 70%;
   transform: translateX(21%);
+  transition: 1000ms ease-in;
+}
+.codebox {
+  transition: 1000ms ease-in-out;
+  padding-top:0%;
+}
+.codebox:hover {
+
 }
 
 #header {
   word-wrap: normal;
   z-index: 9000;
+}
+
+#palcp {
+  padding-right: 10px;
+  width: 80%;
+  opacity: 1;
+}
+
+p {
+  font-family: "Barlow Semi Condensed";
+  width: 90%;
+  transform: translateX(6%);
+  font-size: 15px;
+  text-align: center;
+  line-height: 150%;
+  display: block;
+  color: black;
+  opacity: 0;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  transition: 1000ms ease-in-out;
+}
+
+.webtag {
+  color: #85C1E9;
+  font-family: "Barlow Semi Condensed";
 }
