@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   $('.logo').hover(function() { //jQuery Function Number 1
-    $(this).css('opacity', '0.7'); //jQuery Function Number 2
+    $(this).css('opacity', '0.6'); //jQuery Function Number 2
   }, function() {
     $(this).css('opacity', '1');
   });

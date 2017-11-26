@@ -81,6 +81,7 @@ h2 {
 
 .logo {
   width: 4.4%;
+  transition: 500ms ease-in-out;
 }
 
 #logos {
@@ -119,9 +120,6 @@ h3 {
   transition: 1000ms ease-in-out;
   padding-top:0%;
 }
-.codebox:hover {
-
-}
 
 #header {
   word-wrap: normal;
@@ -129,9 +127,7 @@ h3 {
 }
 
 #palcp {
-  padding-right: 10px;
   width: 80%;
-  opacity: 1;
 }
 
 p {
