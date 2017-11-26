@@ -84,6 +84,56 @@ h2 {
 .logo {
   width: 4.4%;
 }
+
 #logos {
   padding-left: 7.5%;
+}
+
+/*-----------------  Developing Frame  -----------------------*/
+
+#c {
+  padding-left: 6%;
+}
+
+.codebox {
+  width: 23.25%;
+  height: 100%;
+  display: inline-block;
+  position: static;
+}
+
+/*#berkeley {
+  background-color: red;
+}
+
+#adobe {
+  background-color: orange;
+}
+
+#whatsapp {
+  background-color: yellow;
+}
+
+#pialacode {
+  background-color: green;
+}*/
+
+.codeprojects {
+  width: 70%;
+  padding-top: 50%;
+  transform: translateX(21%);
+}
+
+h3 {
+  font-family: "Alte Haas";
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  width: 70%;
+  transform: translateX(21%);
+}
+
+#header {
+  word-wrap: normal;
+  z-index: 9000;
 }
