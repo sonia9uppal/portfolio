@@ -6,6 +6,10 @@ $(document).ready(function() {
     loopBottom: true,
     navigation: true,
     navigationTooltips: ['Home', 'Developing', 'Design']
-
   });
+
+  /*$('#facebook-logo').click({
+    $(this).attr('href','http://facebook.com/soniaupp');
+  });*/
+
 });

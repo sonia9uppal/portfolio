@@ -12,7 +12,6 @@ h1 {
   font-family: "Alte Haas";
   color: white;
   font-size: 70px;
-  padding-left: 30%;
   margin-top: 0px;
   margin-bottom: 0px;
   //font-weight: bold;
@@ -38,15 +37,16 @@ body {
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
+  padding-left:25%;
 }
 
 #lastname {
   margin-top: 0px;
-  padding-left: 25%;
 }
 
 #firstname {
   margin-bottom: 0px;
+  padding-left: 7.5%;
 }
 
 #tagline {
@@ -61,12 +61,12 @@ body {
 
 h2 {
   font-family: "Barlow Semi Condensed";
-  padding-left: 25.3%;
+  padding-left: 0.3%;
   margin: 0px;
 }
 
 #facebook-logo {
-  padding-left: 30%;
+  padding-left: 0%;
 }
 
 #github-logo {
@@ -82,5 +82,8 @@ h2 {
 }
 
 .logo {
-  width: 3%;
+  width: 4.4%;
+}
+#logos {
+  padding-left: 7.5%;
 }
