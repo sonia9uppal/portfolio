@@ -1,17 +1,37 @@
-#topbar {
-  width: 100%;
-  z-index: 2;
+a {
+  text-decoration: none;
+  font-family: "Dosis";
 }
 
-ul {
-  display: inline-flex;
-  list-style: none;
-  width: 100%;
-  //transform: translateX(50%);
-  position: fixed;
-  z-index: 2;
-  background-color: white;
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 
-li {
+h1 {
+  font-family: "Allerta Stencil";
+  color: white;
+  font-size: 50px;
+  //font-weight: bold;
+}
+
+body {
+  color: white;
+}
+
+@font-face {
+   font-family: Alte Haas;
+   src: url('AlteHaasGroteskRegular.ttf');
+}
+
+@@font-face {
+   font-family: Alte Haas;
+   font-weight: bold;
+   src: url('AlteHaasGroteskBold.ttf');
+}
+
+#h {
+  background-image: url('../img/sonj.png');
+  background-size: contain;
+  background-position: right;
 }

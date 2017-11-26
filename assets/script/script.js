@@ -1,7 +1,11 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-    sectionsColor : ['#CD5C5C', '#F08080', '#FA8072', '#E9967A', '#FFA07A'],
+    sectionsColor : ['#CCD1D1', '#fff', '#000'],
     menu: '#menu',
-    anchors: ['Home', 'About', 'Coding', 'Design', 'PALC']
+    anchors: ['Home', 'Developing', 'Design'],
+    loopBottom: true,
+    navigation: true,
+    navigationTooltips: ['Home', 'Developing', 'Design']
+
   });
 });
