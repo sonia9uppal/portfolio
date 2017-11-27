@@ -46,6 +46,14 @@ html.fp-enabled,
     width: 100%;
     height: 100%;
 }
+
+.fp-tableCellTwo {
+    display: inline-grid;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
 .fp-slidesContainer {
     float: left;
     position: relative;

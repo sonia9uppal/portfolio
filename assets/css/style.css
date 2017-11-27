@@ -224,3 +224,110 @@ p {
   color: #85C1E9;
   font-family: "Barlow Semi Condensed";
 }
+
+/*-----------------  Design Frame  -----------------------*/
+.design {
+  position: absolute;
+  left: 35vw;
+  top: 0vh;
+}
+
+.carousel-container {
+	width: 1250px;
+	margin: 0 auto;
+	height: 70%;
+	overflow: hidden;
+	position: relative;
+}
+
+#carousel {
+	width: 3750px;
+	height: 100%;
+	margin-left: 0vw;
+	-webkit-transition: all 0.3s;
+}
+
+.carousel-item {
+	width: 1250px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 5%;
+    padding: 10px;
+    left: 6vw;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+}
+
+#carousel-next {
+    position: absolute;
+    width: 5%;
+    padding: 10px;
+    right: 6vw;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+}
+
+.arrow {
+  width: 3vw;
+}
+
+#caption {
+  font-family: "Alte Haas";
+  color: white;
+  font-size: calc(1.3vw + 1.3vh + 1vmin);
+
+}
+
+#smolcaption {
+  font-family: "Barlow Semi Condensed";
+  color: white;
+  font-size: calc(.5vw + .5vh + 1vmin);
+  width: 30%;
+}
+
+.designheader {
+  text-decoration: none;
+  font-family: "Alte Haas";
+  color: black;
+  font-weight: bold;
+  font-size: calc(1.5vw + 1.5vh + 2vmin);
+  position: static;
+  transition: 500ms ease-in-out;
+}
+
+#dtitle {
+  top: -90vh;
+  background-color: white;
+  color: black;
+}
+
+#lorde {
+  width: 25vw;
+  top: 3vh;
+}
+
+#pia {
+  top: 15vh;
+  width: 25vw;
+}
+
+#d {
+  vertical-align: top !important;
+}
+
+.totalcaption {
+  padding-top: 70vh;
+}
+
+.title {
+  padding-left: 35vw;
+}
