@@ -1,6 +1,10 @@
 $(document).ready(function() {
+
+  $(window).click(function(e){
+    console.log(e.pageX+", "+$(window).width()+"   "+e.pageY+" "+$(window).height());
+  });
 	$('#fullpage').fullpage({
-    sectionsColor: ['#CCD1D1', '#fff', '#000'],
+    sectionsColor: ['#ccd1d1', '#fff', '#000'],
     menu: '#menu',
     anchors: ['Home', 'Developing', 'Design'],
     loopBottom: true,
